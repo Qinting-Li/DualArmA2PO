@@ -1,0 +1,2 @@
+episode,reward_agent1,reward_agent2,reward_total,success,peak_force_N,peak_torque_Nm,jamming,steps,action1_min,action1_max,action2_min,action2_max,kp_min,kp_max,kd_min,kd_max
+20360831,-59.92998303876817,0.0,-59.92998303876817,False,0.0,0.0,False,80,-0.6152319312095642,0.11297143995761871,0.5004159212112427,0.9007772207260132,1.0,1.0,1.0,1.0

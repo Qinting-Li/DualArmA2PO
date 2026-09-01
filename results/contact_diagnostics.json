@@ -1,0 +1,1378 @@
+{
+  "peg_geoms": [
+    {
+      "name": "workpiece_peg1",
+      "type": 5,
+      "size": [
+        0.02,
+        0.09,
+        0.0
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "workpiece_peg2",
+      "type": 5,
+      "size": [
+        0.02,
+        0.09,
+        0.0
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    }
+  ],
+  "receiver_geoms": [
+    {
+      "name": "receiver_back",
+      "type": 6,
+      "size": [
+        0.24,
+        0.012,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "receiver_front",
+      "type": 6,
+      "size": [
+        0.24,
+        0.012,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "receiver_left",
+      "type": 6,
+      "size": [
+        0.012,
+        0.14,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "receiver_right",
+      "type": 6,
+      "size": [
+        0.012,
+        0.14,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_0",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_1",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_2",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_3",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_4",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_5",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_6",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_7",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_8",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_9",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_10",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_11",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_12",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_13",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_14",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_1_15",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_0",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_1",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_2",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_3",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_4",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_5",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_6",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_7",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_8",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_9",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_10",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_11",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_12",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_13",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_14",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    },
+    {
+      "name": "hole_ring_2_15",
+      "type": 6,
+      "size": [
+        0.003,
+        0.004479274,
+        0.02
+      ],
+      "contype": 1,
+      "conaffinity": 1,
+      "margin": 0.0,
+      "gap": 0.0,
+      "friction": [
+        0.7,
+        0.05,
+        0.01
+      ]
+    }
+  ],
+  "neq": 2,
+  "weld_active_at_reset": [
+    1,
+    1
+  ],
+  "option": {
+    "timestep": 0.002,
+    "integrator": 3,
+    "cone": 1
+  },
+  "cases": {
+    "aligned_open_passage": {
+      "ncon": 0,
+      "contacts": [],
+      "total_wrench_contact_frame": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_force_N": 0.0,
+      "total_force_norm_N": 0.0,
+      "peg_lateral_error_m": [
+        0.0,
+        0.0
+      ],
+      "peg_depth_m": [
+        0.03799999999999997,
+        0.03799999999999997
+      ]
+    },
+    "left_hole_wall": {
+      "ncon": 10,
+      "contacts": [
+        {
+          "index": 0,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_0",
+          "distance_m": -0.006999976387185629,
+          "normal_force_N": 0.0,
+          "force_norm_N": 0.0,
+          "wrench_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_1",
+          "distance_m": -0.006085602730124926,
+          "normal_force_N": 134.47822190291572,
+          "force_norm_N": 164.1515894762919,
+          "wrench_contact_frame": [
+            134.47822190291572,
+            89.30849939964817,
+            29.75473233632362,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_2",
+          "distance_m": -0.0030062805791664384,
+          "normal_force_N": 589.8739106360379,
+          "force_norm_N": 720.0328696449128,
+          "wrench_contact_frame": [
+            589.8739106360379,
+            69.73313253018495,
+            -406.98082651098355,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_14",
+          "distance_m": -0.003005630094500222,
+          "normal_force_N": 597.5894763144023,
+          "force_norm_N": 729.450917800893,
+          "wrench_contact_frame": [
+            597.5894763144023,
+            61.845979234617545,
+            413.71552319360075,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_15",
+          "distance_m": -0.006085847490448292,
+          "normal_force_N": 110.09343464904009,
+          "force_norm_N": 134.38616329706517,
+          "wrench_contact_frame": [
+            110.09343464904009,
+            -73.65984882518501,
+            22.656195707441587,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_0",
+          "distance_m": -0.006999964167705782,
+          "normal_force_N": 0.0,
+          "force_norm_N": 0.0,
+          "wrench_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_1",
+          "distance_m": -0.006085602730124919,
+          "normal_force_N": 133.69695305682,
+          "force_norm_N": 163.19792931422114,
+          "wrench_contact_frame": [
+            133.69695305682,
+            87.47758776908644,
+            -33.26199804392047,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_2",
+          "distance_m": -0.003006280579166432,
+          "normal_force_N": 589.4726914462731,
+          "force_norm_N": 719.5431192095165,
+          "wrench_contact_frame": [
+            589.4726914462731,
+            -62.357451305497406,
+            -407.89189095583885,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_14",
+          "distance_m": -0.003006016162524812,
+          "normal_force_N": 587.6834290266626,
+          "force_norm_N": 717.3590460859048,
+          "wrench_contact_frame": [
+            587.6834290266626,
+            -69.98577735379942,
+            405.38152303345953,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_15",
+          "distance_m": -0.006085847490448284,
+          "normal_force_N": 128.17279347692545,
+          "force_norm_N": 156.45483320000406,
+          "wrench_contact_frame": [
+            128.17279347692545,
+            -83.21816224900472,
+            -33.53486716629176,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "total_wrench_contact_frame": [
+        2871.060910509077,
+        19.14395920005053,
+        -10.161608406209112,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_force_N": 729.450917800893,
+      "total_force_norm_N": 2871.142716987866,
+      "peg_lateral_error_m": [
+        0.011999999999999997,
+        0.011999999999999997
+      ],
+      "peg_depth_m": [
+        0.03799999999999997,
+        0.03799999999999997
+      ]
+    },
+    "right_hole_wall": {
+      "ncon": 10,
+      "contacts": [
+        {
+          "index": 0,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_6",
+          "distance_m": -0.003006016162524812,
+          "normal_force_N": 587.6834290266629,
+          "force_norm_N": 717.3590460859051,
+          "wrench_contact_frame": [
+            587.6834290266629,
+            -69.98577735379956,
+            405.3815230334597,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_7",
+          "distance_m": -0.006085847490448284,
+          "normal_force_N": 128.17279347692553,
+          "force_norm_N": 156.45483320000415,
+          "wrench_contact_frame": [
+            128.17279347692553,
+            83.21816224900473,
+            33.534867166291825,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_8",
+          "distance_m": -0.006999964167705782,
+          "normal_force_N": 0.0,
+          "force_norm_N": 0.0,
+          "wrench_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_9",
+          "distance_m": -0.006085602730124919,
+          "normal_force_N": 133.69695305682012,
+          "force_norm_N": 163.19792931422128,
+          "wrench_contact_frame": [
+            133.69695305682012,
+            -87.47758776908648,
+            33.261998043920514,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_10",
+          "distance_m": -0.003006280579166432,
+          "normal_force_N": 589.4726914462735,
+          "force_norm_N": 719.543119209517,
+          "wrench_contact_frame": [
+            589.4726914462735,
+            -62.35745130549752,
+            -407.89189095583913,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_6",
+          "distance_m": -0.003005630094500222,
+          "normal_force_N": 597.5894763144023,
+          "force_norm_N": 729.450917800893,
+          "wrench_contact_frame": [
+            597.5894763144023,
+            61.84597923461752,
+            413.71552319360075,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_7",
+          "distance_m": -0.006085847490448292,
+          "normal_force_N": 110.09343464904039,
+          "force_norm_N": 134.38616329706554,
+          "wrench_contact_frame": [
+            110.09343464904039,
+            73.65984882518522,
+            -22.65619570744164,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_8",
+          "distance_m": -0.006999976387185629,
+          "normal_force_N": 0.0,
+          "force_norm_N": 0.0,
+          "wrench_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_9",
+          "distance_m": -0.006085602730124926,
+          "normal_force_N": 134.47822190291583,
+          "force_norm_N": 164.15158947629203,
+          "wrench_contact_frame": [
+            134.47822190291583,
+            -89.30849939964826,
+            -29.754732336323656,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_10",
+          "distance_m": -0.0030062805791664384,
+          "normal_force_N": 589.8739106360381,
+          "force_norm_N": 720.032869644913,
+          "wrench_contact_frame": [
+            589.8739106360381,
+            69.733132530185,
+            -406.9808265109837,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "total_wrench_contact_frame": [
+        2871.0609105090784,
+        -20.67219298903933,
+        18.61026592668469,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_force_N": 729.450917800893,
+      "total_force_norm_N": 2871.1956452694158,
+      "peg_lateral_error_m": [
+        0.011999999999999997,
+        0.011999999999999997
+      ],
+      "peg_depth_m": [
+        0.03799999999999997,
+        0.03799999999999997
+      ]
+    },
+    "angular_misalignment": {
+      "ncon": 10,
+      "contacts": [
+        {
+          "index": 0,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_6",
+          "distance_m": -0.005489637798472312,
+          "normal_force_N": 2475.6858907634487,
+          "force_norm_N": 3021.959751269127,
+          "wrench_contact_frame": [
+            2475.6858907634487,
+            -131.43449865830584,
+            1727.98873871556,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_7",
+          "distance_m": -0.014345370388923235,
+          "normal_force_N": 8653.780301413091,
+          "force_norm_N": 9739.978691303188,
+          "wrench_contact_frame": [
+            8653.780301413091,
+            -360.3033007540247,
+            4455.272486995676,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_8",
+          "distance_m": -0.018127695125713734,
+          "normal_force_N": 7948.379100429565,
+          "force_norm_N": 7957.067561661798,
+          "wrench_contact_frame": [
+            7948.379100429565,
+            4.5126112065663095,
+            371.7169528620221,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_9",
+          "distance_m": -0.014345345642357274,
+          "normal_force_N": 8665.346353357862,
+          "force_norm_N": 9751.38461685596,
+          "wrench_contact_frame": [
+            8665.346353357862,
+            -361.1985372254419,
+            -4457.668688777673,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "geom1": "workpiece_peg1",
+          "geom2": "hole_ring_1_10",
+          "distance_m": -0.005489585558401203,
+          "normal_force_N": 2472.8243457599524,
+          "force_norm_N": 3018.4667904459166,
+          "wrench_contact_frame": [
+            2472.8243457599524,
+            -131.86125409098884,
+            -1725.947313712469,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 5,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_6",
+          "distance_m": -0.005489515088796136,
+          "normal_force_N": 2474.3715109327522,
+          "force_norm_N": 3020.3553462187674,
+          "wrench_contact_frame": [
+            2474.3715109327522,
+            -63.164158485126734,
+            1730.9079502964694,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_7",
+          "distance_m": -0.014456241867527402,
+          "normal_force_N": 9117.372614601443,
+          "force_norm_N": 10199.33444499046,
+          "wrench_contact_frame": [
+            9117.372614601443,
+            -155.3295591811858,
+            4569.005630914575,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 7,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_8",
+          "distance_m": -0.01869071326284139,
+          "normal_force_N": 8332.094616984652,
+          "force_norm_N": 8340.267454414286,
+          "wrench_contact_frame": [
+            8332.094616984652,
+            0.2944213835704483,
+            -369.13468828276234,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_9",
+          "distance_m": -0.014456292489540761,
+          "normal_force_N": 9124.808361063608,
+          "force_norm_N": 10206.217531905171,
+          "wrench_contact_frame": [
+            9124.808361063608,
+            -156.68844916513504,
+            -4569.48546472471,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 9,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_10",
+          "distance_m": -0.005489372870505272,
+          "normal_force_N": 2474.96351584138,
+          "force_norm_N": 3021.0779803029627,
+          "wrench_contact_frame": [
+            2474.96351584138,
+            -63.723604070433716,
+            -1731.302128633179,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "total_wrench_contact_frame": [
+        61739.62661114776,
+        -1418.896329040506,
+        1.3534756535095767,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_force_N": 10206.217531905171,
+      "total_force_norm_N": 61755.9289680627,
+      "peg_lateral_error_m": [
+        0.023271535194438017,
+        0.024134498891974047
+      ],
+      "peg_depth_m": [
+        0.02939337746173034,
+        0.04375884233640067
+      ]
+    },
+    "one_peg_aligned_other_misaligned": {
+      "ncon": 5,
+      "contacts": [
+        {
+          "index": 0,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_2",
+          "distance_m": -0.0027441945317497126,
+          "normal_force_N": 523.8393653403655,
+          "force_norm_N": 639.4274346737817,
+          "wrench_contact_frame": [
+            523.8393653403655,
+            7.917681945118253,
+            366.60206470492284,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 1,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_3",
+          "distance_m": -0.0059565759214862506,
+          "normal_force_N": 187.91090981669453,
+          "force_norm_N": 229.3744971480602,
+          "wrench_contact_frame": [
+            187.91090981669453,
+            -7.1099588310761295,
+            131.3453402264731,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_4",
+          "distance_m": -0.00698996154950122,
+          "normal_force_N": 0.0,
+          "force_norm_N": 0.0,
+          "wrench_contact_frame": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_5",
+          "distance_m": -0.006192016563296112,
+          "normal_force_N": 30.313559090807818,
+          "force_norm_N": 37.002414495277556,
+          "wrench_contact_frame": [
+            30.313559090807818,
+            -1.979889773163167,
+            -21.126922402814696,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "geom1": "workpiece_peg2",
+          "geom2": "hole_ring_2_6",
+          "distance_m": -0.0032562176345265962,
+          "normal_force_N": 616.985251513662,
+          "force_norm_N": 753.1264786688962,
+          "wrench_contact_frame": [
+            616.985251513662,
+            -9.431612308271157,
+            -431.7866799428869,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "total_wrench_contact_frame": [
+        1359.04908576153,
+        -10.6037789673922,
+        45.03380258569433,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "peak_force_N": 753.1264786688962,
+      "total_force_norm_N": 1359.8363508205564,
+      "peg_lateral_error_m": [
+        0.0002999166759255185,
+        0.011993751289064266
+      ],
+      "peg_depth_m": [
+        0.03799999999999997,
+        0.03799999999999997
+      ]
+    }
+  },
+  "all_misaligned_cases_nonzero": true,
+  "aligned_case_is_open": true
+}

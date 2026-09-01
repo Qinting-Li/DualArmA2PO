@@ -1,0 +1,37 @@
+{
+  "trained": true,
+  "checkpoint": "results/a2po_complex_retrain_20260831/checkpoint_final.pt",
+  "environment": "DynamicVerticalDualPandaEnv",
+  "impedance_action_dim": 7,
+  "training": {
+    "episodes": 200,
+    "mean_reward_agent1": 3848.3003045805335,
+    "mean_reward_agent2": 251.8420831274975,
+    "mean_reward_total": 4100.142387708032,
+    "success_rate": 1.0,
+    "peak_force_N": 581.9486249569427,
+    "peak_torque_Nm": 0.0,
+    "jamming_rate": 0.225,
+    "mean_steps": 287.67,
+    "action1_min": -1.0,
+    "action1_max": 1.0,
+    "action2_min": 0.4770578444004059,
+    "action2_max": 0.9270994663238525,
+    "kp_min": 1.0,
+    "kp_max": 235.20533919334412,
+    "kd_min": 1.0,
+    "kd_max": 45.74652314186096
+  },
+  "evaluation": {
+    "protocol": "independent 40-episode hard and 40-episode OOD evaluation",
+    "hard_summary": "eval_hard_40.summary.json",
+    "ood_summary": "eval_ood_40.summary.json",
+    "hard_successes": 37,
+    "hard_episodes": 40,
+    "hard_success_rate": 0.925,
+    "ood_successes": 37,
+    "ood_episodes": 40,
+    "ood_success_rate": 0.925,
+    "wilson_ci95_low_both": 0.8013576647568946
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "target_has_freejoint": true,
+  "zero_gravity": true,
+  "floating_modes": [
+    "floating_zero_velocity",
+    "floating_random_velocity"
+  ],
+  "contact_force_observed_N": 23.606566376821114,
+  "contact_torque_observed_Nm": 0.6418495527767273,
+  "target_translation_observed_m": 0.4858687032691167,
+  "target_rotation_observed_deg": 0.7023116848554839,
+  "contact_driven_6dof_motion_observed": true,
+  "finite_target_trajectories": true,
+  "relative_state_control": true,
+  "target_state_not_scripted_after_reset": true,
+  "episodes_per_mode": 100
+}

@@ -1,0 +1,36 @@
+{
+  "train_seed": 20260901,
+  "episodes": 500,
+  "warm_start_checkpoint": "/home/qinting/X/results/a2po_dual_panda_dynamic_vertical/checkpoint_final.pt",
+  "best_episode": 250,
+  "best_score": [
+    0.4,
+    -0.0,
+    -0.0,
+    -1078.5
+  ],
+  "best_checkpoint": "/home/qinting/X/results/a2po_dual_panda_dynamic_vertical/formal/seed_20260901/checkpoint_best.pt",
+  "validation_episodes": 20,
+  "validation_seeds": [
+    40000000,
+    40000001,
+    40000002,
+    40000003,
+    40000004,
+    40000005,
+    40000006,
+    40000007,
+    40000008,
+    40000009,
+    40000010,
+    40000011,
+    40000012,
+    40000013,
+    40000014,
+    40000015,
+    40000016,
+    40000017,
+    40000018,
+    40000019
+  ]
+}

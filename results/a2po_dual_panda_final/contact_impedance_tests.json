@@ -1,0 +1,98 @@
+{
+  "same_initial_pose": [
+    0.006,
+    0.0,
+    0.2,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "summaries": [
+    {
+      "setting": "high_stiffness",
+      "impedance_action": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "steps": 80,
+      "initial_contact_force_N": 3595.1540639492728,
+      "peak_contact_force_N": 3595.1540639492728,
+      "peak_dynamic_contact_force_N": 1911.020444270845,
+      "mean_dynamic_contact_force_N": 88.1510035249252,
+      "final_mean_lateral_error_m": 0.013502934932669894,
+      "lateral_correction_m": -0.007502934932669892,
+      "lateral_error_std_m": 0.0035023535819763063,
+      "lateral_direction_changes": 12,
+      "final_mean_insertion_depth_m": 3.442040982223546e-05,
+      "max_mean_insertion_depth_m": 0.03799999999999997
+    },
+    {
+      "setting": "medium_stiffness",
+      "impedance_action": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "steps": 80,
+      "initial_contact_force_N": 3595.1540639492728,
+      "peak_contact_force_N": 3595.1540639492728,
+      "peak_dynamic_contact_force_N": 2143.320370504819,
+      "mean_dynamic_contact_force_N": 95.34082817533111,
+      "final_mean_lateral_error_m": 0.015193341870758263,
+      "lateral_correction_m": -0.009193341870758261,
+      "lateral_error_std_m": 0.004022639854345087,
+      "lateral_direction_changes": 12,
+      "final_mean_insertion_depth_m": 0.0,
+      "max_mean_insertion_depth_m": 0.03799999999999997
+    },
+    {
+      "setting": "low_lateral_high_damping",
+      "impedance_action": [
+        0.05,
+        0.05,
+        0.8,
+        0.05,
+        0.05,
+        0.05,
+        0.95,
+        0.95,
+        0.95,
+        0.95,
+        0.95,
+        0.95
+      ],
+      "steps": 80,
+      "initial_contact_force_N": 3595.1540639492728,
+      "peak_contact_force_N": 3595.1540639492728,
+      "peak_dynamic_contact_force_N": 1910.4373199615095,
+      "mean_dynamic_contact_force_N": 85.73729607852823,
+      "final_mean_lateral_error_m": 0.01745377290057054,
+      "lateral_correction_m": -0.01145377290057054,
+      "lateral_error_std_m": 0.004149700825733963,
+      "lateral_direction_changes": 12,
+      "final_mean_insertion_depth_m": 0.0,
+      "max_mean_insertion_depth_m": 0.03799999999999997
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "episodes": 10,
+  "mean_reward_agent1": -1011.7173422757738,
+  "mean_reward_agent2": -275.7539392512314,
+  "mean_reward_total": -1287.4712815270052,
+  "success_rate": 0.0,
+  "peak_force_N": 237.72358905545406,
+  "peak_torque_Nm": 0.0,
+  "jamming_rate": 0.6,
+  "mean_steps": 1600.0,
+  "action1_min": -1.0,
+  "action1_max": 1.0,
+  "action2_min": 0.5,
+  "action2_max": 0.8999999761581421,
+  "kp_min": 1.0,
+  "kp_max": 276.9999957084656,
+  "kd_min": 1.0,
+  "kd_max": 39.50000071525574
+}

@@ -1,0 +1,21 @@
+{
+  "mean_reward_agent1": 2607.1299112388406,
+  "mean_reward_agent2": 253.0642413615154,
+  "mean_reward_total": 2860.194152600356,
+  "success_rate": 1.0,
+  "peak_force_N": 0.0,
+  "peak_torque_Nm": 0.0,
+  "jamming_rate": 0.0,
+  "mean_steps": 193.66666666666666,
+  "action1_min": -1.0,
+  "action1_max": 0.8696173429489136,
+  "action2_min": 0.15000000596046448,
+  "action2_max": 0.949999988079071,
+  "kp_min": 16.88500019013882,
+  "kp_max": 482.29999101161957,
+  "kd_min": 0.9600000083446503,
+  "kd_max": 5.324999958276749,
+  "episodes": 3,
+  "action_range_valid": true,
+  "impedance_positive": true
+}

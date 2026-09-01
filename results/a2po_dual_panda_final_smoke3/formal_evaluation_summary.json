@@ -1,0 +1,69 @@
+{
+  "episodes_per_variant": 2,
+  "variants": [
+    {
+      "variant": "A_fixed_impedance",
+      "episodes": 2,
+      "success_rate": 0.0,
+      "peak_contact_force_N": 1065.3982584693667,
+      "mean_contact_force_N": 27.93266367432268,
+      "peak_torque_Nm": 0.0,
+      "mean_insertion_time_steps": 1600.0,
+      "jamming_rate": 1.0,
+      "mean_position_error_m": 0.03997492002621901,
+      "mean_orientation_error_deg": 0.3707139591893415,
+      "mean_peg1_lateral_error_m": 0.013359423805416047,
+      "mean_peg2_lateral_error_m": 0.01335536807449635,
+      "mean_peg1_insertion_depth_m": 6.68934090424303e-05,
+      "mean_peg2_insertion_depth_m": 4.6841254308562646e-05
+    },
+    {
+      "variant": "B_unconditioned_agent2",
+      "episodes": 2,
+      "success_rate": 0.0,
+      "peak_contact_force_N": 1385.6745125086527,
+      "mean_contact_force_N": 27.60791353706855,
+      "peak_torque_Nm": 0.0,
+      "mean_insertion_time_steps": 1600.0,
+      "jamming_rate": 1.0,
+      "mean_position_error_m": 0.04200031028921246,
+      "mean_orientation_error_deg": 0.4284059024373211,
+      "mean_peg1_lateral_error_m": 0.01871236793092078,
+      "mean_peg2_lateral_error_m": 0.018709534438392697,
+      "mean_peg1_insertion_depth_m": 3.800970077499216e-05,
+      "mean_peg2_insertion_depth_m": 2.071592705856981e-05
+    },
+    {
+      "variant": "C_prior_condition",
+      "episodes": 2,
+      "success_rate": 0.0,
+      "peak_contact_force_N": 1382.4386072894115,
+      "mean_contact_force_N": 27.622174387496912,
+      "peak_torque_Nm": 0.0,
+      "mean_insertion_time_steps": 1600.0,
+      "jamming_rate": 1.0,
+      "mean_position_error_m": 0.042060880618853144,
+      "mean_orientation_error_deg": 0.4335100934353188,
+      "mean_peg1_lateral_error_m": 0.018920490200206433,
+      "mean_peg2_lateral_error_m": 0.01891741957195104,
+      "mean_peg1_insertion_depth_m": 3.448204647019809e-05,
+      "mean_peg2_insertion_depth_m": 1.7484207417910874e-05
+    },
+    {
+      "variant": "D_full_A2PO",
+      "episodes": 2,
+      "success_rate": 0.0,
+      "peak_contact_force_N": 1382.4341204263478,
+      "mean_contact_force_N": 27.599508715084486,
+      "peak_torque_Nm": 0.0,
+      "mean_insertion_time_steps": 1600.0,
+      "jamming_rate": 1.0,
+      "mean_position_error_m": 0.04210162431516465,
+      "mean_orientation_error_deg": 0.4368128372151293,
+      "mean_peg1_lateral_error_m": 0.01905637810880831,
+      "mean_peg2_lateral_error_m": 0.019053983102103197,
+      "mean_peg1_insertion_depth_m": 3.173220784970926e-05,
+      "mean_peg2_insertion_depth_m": 1.5111861661209341e-05
+    }
+  ]
+}

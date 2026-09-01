@@ -1,0 +1,107 @@
+task:
+  name: bimanual_peg_in_hole
+  num_envs: 1
+  physics_dt: 0.005
+  control_decimation: 4
+  max_episode_steps: 1200
+
+# MuJoCo floating-target evaluation.  These values are deliberately kept in
+# the config so reset randomization is reproducible and never hidden in the
+# simulator/evaluation code.
+mujoco:
+  timestep: 0.002
+  control_interval: 4
+  gravity: [0.0, 0.0, 0.0]
+  target_mass_kg: 4.00
+  target_inertia: [0.0300, 0.0300, 0.0450]
+  target_position_offset_m: 0.015
+  target_rotation_deg: 4.0
+  target_linear_velocity_mps: 0.012
+  target_angular_velocity_dps: 1.5
+  target_contact_damping: 1.5
+  target_friction: 0.55
+  peg_mass_kg: 0.30
+  peg_length_m: 0.160
+  peg_radius_m: 0.018
+  hole_half_width_m: 0.024
+  panel_thickness_m: 0.040
+  required_insertion_depth_m: 0.030
+  success_lateral_error_m: 0.008
+  success_angular_error_deg: 8.0
+  safe_contact_force_N: 45.0
+  safe_contact_torque_Nm: 8.0
+  controller:
+    mass: [0.25, 0.25, 0.25, 0.015, 0.015, 0.015]
+    kp: [140.0, 140.0, 170.0, 18.0, 18.0, 12.0]
+    damping_ratio: 1.0
+    max_force_N: 35.0
+    max_torque_Nm: 10.0
+
+evaluation:
+  episodes_per_mode: 100
+  seed: 20260824
+  max_steps: 1200
+  output_episode_csv: results/floating_6dof_per_episode.csv
+  output_summary_csv: results/floating_6dof_summary.csv
+  figures_dir: figures
+
+geometry:
+  peg_radius_m: 0.020
+  peg_length_m: 0.180
+  hole_radius_m: 0.022
+  hole_depth_m: 0.040
+  radial_clearance_m: 0.002
+
+# Main environment: two real Panda arms jointly hold one rigid two-peg
+# workpiece and insert both pegs into the corresponding physical holes.
+dual_panda_assembly:
+  timestep: 0.002
+  control_interval: 4
+  gravity: [0.0, 0.0, -9.81]
+  arm_base_x_m: 0.48
+  arm_base_z_m: -0.38
+  workpiece_mass_kg: 1.0
+  peg_spacing_m: 0.12
+  max_steps: 1600
+
+# Per-side normal force used by the dynamic environment's seventh Agent 2
+# action. The upper bound is the configured safe clamp, not a material model.
+grasp:
+  internal_force_min_N: 8.0
+  internal_force_max_N: 50.0
+  friction_coefficient: 0.7
+  slip_persistence_steps: 5
+
+success:
+  lateral_error_m: 0.001
+  angle_error_deg: 2.0
+  insertion_depth_m: 0.035
+  hold_steps: 25
+
+impedance:
+  kp_min: [50.0, 50.0, 20.0, 5.0, 5.0, 2.0]
+  kp_max: [1200.0, 1200.0, 500.0, 120.0, 120.0, 50.0]
+  damping_ratio_min: 0.5
+  damping_ratio_max: 1.5
+  max_parameter_change_fraction: 0.05
+  max_force_N: 80.0
+  max_torque_Nm: 12.0
+
+operational_space_control:
+  max_joint_torque_Nm: [60.0, 60.0, 60.0, 60.0, 10.0, 10.0, 10.0]
+  nullspace_kp: 10.0
+  nullspace_kd: 2.0
+  damping: 0.05
+
+safety:
+  max_contact_force_N: 45.0
+  max_sync_error_m: 0.008
+  insertion_timeout_steps: 300
+
+agents:
+  trajectory_action: "2 x 6 Cartesian error correction"
+  impedance_action: "dynamic task: 6 grouped K/D scales + 1 internal-force scale"
+  training_order:
+    - fixed_impedance_train_trajectory
+    - freeze_trajectory_train_impedance
+    - joint_fine_tune
